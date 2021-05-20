@@ -15,7 +15,7 @@ def beep():
 	if platform.system().startswith('CYGWIN_NT'):
 		os.system('cygstart ./beep.mp3')
 	else:
-		print "Check if the Available slots are nearby your area !!!"
+		print ("Check if the Available slots are nearby your area")
 
 def parse_cowin_json(cjson):
 	freeslots1 = 0;
